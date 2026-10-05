@@ -1,0 +1,39 @@
+/*
+  Name:    Sattwik Bhattacharjee
+  Section: Web Programming Section 004
+  Assignment 2: My Movie Review
+  File:    print.css - clean print layout for index.html (loaded with
+           media="print"): no backgrounds, no fixed validator bar.
+*/
+
+body {
+  background: none;
+  color: black;
+  padding: 0;
+}
+
+#banner,
+#validators {
+  display: none;
+}
+
+#frame {
+  width: auto;
+  margin: 0;
+  border: 1px solid black;
+}
+
+#rating,
+#overview,
+#counter,
+.quote {
+  background: none;
+}
+
+#rating {
+  color: black;
+}
+
+.review {
+  break-inside: avoid;
+}
